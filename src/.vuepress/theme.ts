@@ -29,12 +29,11 @@ export default hopeTheme({
 
   // 加密配置
   encrypt: {
-    config: {
-      "/src/java": {
-        hint: "密码请联系工作人员",
-        password: ["1234","5678"],
-      },
-    },
+    global: true,
+    admin: {
+      password: "huizhi", // 也可以是数组
+      hint: "密码请联系工作人员",
+    },  
   },
 
   // 多语言配置
