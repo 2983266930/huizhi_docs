@@ -30,9 +30,9 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+      "/src/java": {
+        hint: "密码请联系工作人员",
+        password: ["1234","5678"],
       },
     },
   },
