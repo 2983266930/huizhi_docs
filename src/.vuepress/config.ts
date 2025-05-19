@@ -4,7 +4,7 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/test_docs/",
+  base: "/huizhi_docs/",
 
   lang: "zh-CN",
   title: "慧治",
